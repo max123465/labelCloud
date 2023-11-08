@@ -17,6 +17,8 @@ def main():
     parser.add_argument(
         "-v", "--version", action="version", version="%(prog)s " + __version__
     )
+    
+    
     args = parser.parse_args()
 
     if args.example:
